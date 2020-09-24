@@ -51,8 +51,8 @@ phi(19) = 19-1 = 18 = 2*3^2
 Tìm các phần tử nguyên thủy sao cho:
 x^(18/2) mod 19 != 1  <=> x^9 mod 19 != 1
 x^(18/3) mod 19 != 1      x^6 mod 19 != 1
-Xét x = 2 <=> 2^9 mod 37 = 18 != 1
-	      2^6 mod 37 = 7 != 1
+Xét x = 2 <=> 2^9 mod 19 = 18 != 1
+	      2^6 mod 19 = 7 != 1
 => 2 là phần tử nguyên thủy của Z19
 Để UCLN(i,phi(19)) = 1 thì i thuộc Z18;
 Z18 = {1,5,7,11,13,17}
